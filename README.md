@@ -40,7 +40,7 @@ Use npm to run the tests, which are written using Mocha and TAP.
 ```
 npm test
 
-  > weather-cities@0.0.0 test /Users/mathem07/workspace/bbc-academy-codesample
+  > weather-cities@0.0.0 test bbc-academy-codesample
   > mocha --reporter mocha-tap-reporter
 
   1..3
