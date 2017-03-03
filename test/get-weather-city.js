@@ -18,7 +18,7 @@ describe( 'Weather City', function() {
     } );
 
     // TEST B
-    it.skip( 'should return weather publication date for a given city.', function( done ) {
+    it( 'should return weather publication date for a given city.', function( done ) {
         this.timeout( 4000 );
 
         weather( 'cardiff', function( result ) {
