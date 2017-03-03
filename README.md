@@ -65,9 +65,9 @@ npm test
 ### B: Extend the application
 
 - Notice that the test folder contains several tests that are currently skipped.
-- Make changes to the code such that when the test marked "TEST B" can run and pass.
+- Make changes to the code such that the test marked "TEST B" can run and pass.
 
 ### C: Add a new feature to the application
 
 - Notice that the test folder contains several tests that are currently skipped.
-- Make further changes to the code such that when the test marked "TEST C" can run and pass.
+- Make further changes to the code such that the test marked "TEST C" can run and pass.
