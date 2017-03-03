@@ -10,7 +10,7 @@ Use the Node Package Manager (npm) to install from github. On a BASH-like comman
 
 ```
 $ git clone git@github.com:bbc/bbc-academy-codesample.git
-$ cd bbc-academy-codesample.git
+$ cd bbc-academy-codesample
 $ npm install
 ```
 
