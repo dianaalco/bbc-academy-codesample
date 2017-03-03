@@ -33,6 +33,26 @@ $ node scripts/run.js -c london
   }
 ```
 
+## Testing
+
+Use npm to run the tests, which are written using Mocha and TAP.
+
+```
+npm test
+
+  > weather-cities@0.0.0 test /Users/mathem07/workspace/bbc-academy-codesample
+  > mocha --reporter mocha-tap-reporter
+
+  1..3
+  ok 1 Weather City should return weather title and summary for a given city.
+  ok 2 Weather City should return weather publication date for a given city. # SKIP -
+  ok 3 Weather City should return weather summaries for all the cities. # SKIP -
+  # tests 3
+  # pass 1
+  # fail 0
+  # skip 2
+```
+
 ## Exercises
 
 ### A: Running the application
