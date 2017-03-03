@@ -8,8 +8,6 @@
         "test": "mocha --reporter mocha-tap-reporter"
     },
     "dependencies": {
-        "async": "2.1.4",
-        "query-string": "4.3.2",
         "rss-parser": "2.5.2",
         "yargs": "^6.6.0"
     },
