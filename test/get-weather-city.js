@@ -31,13 +31,13 @@ describe( 'Weather City', function() {
     } );
 
     // TEST C
-    it( 'should return weather summaries for all the cities.', function( done ) {
+    it.skip( 'should return weather summaries for all the cities.', function( done ) {
         this.timeout( 4000 );
 
         weather( 'all', function( result ) {
             assert.equal( 'undefined', typeof result.error );
-            //assert( Array.isArray( result ) );
-            // assert.equal( 3, result.length );
+            assert( Array.isArray( result ) );
+            assert.equal( 3, result.length );
             assert.equal( 'manchester', result[ 0 ].title );
             assert.equal( 'string', typeof result[ 0 ].summary );
             done();
